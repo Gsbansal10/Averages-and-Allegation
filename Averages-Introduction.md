@@ -13,13 +13,13 @@ Would you enumerate the marks obtained by each student for all 20 students? What
 
 See, it is clear that the person is asking you to get a general idea of the level of the students of your class. So it is more appropriate to tell him just one number which would give him a rough estimate of that. That number is called as _average_.
 
-## Why do we need it?
+## Why do we need average?
 
-In addition to the use-case shown above, we can understand another case where average is useful.
+In addition to the use-case shown above, we can understand one another case where average is useful.
 
-Suppose we have two classes of students&mdash; $A$ and $B$ having $100$ students in each class. We want to compare the level of students in each class. How can we do it?
+Suppose we have two classes of students&mdash; $A$ and $B$ having $100$ students in each class. We want to compare the performace level of students in each class. How can we do it?
 
-One way is to add all the marks obtained by every student of a class and then see which is higher. For eg. if the total of class $A$ comes out at $8200$ and class $B$ come out at $7300$, then we can say that _in general_, the students of class $A$ have performed better than the students of class $B$.
+One way is to add the marks obtained by all students of a class and see which is higher. For eg. if the total of class $A$ comes out at $8200$ and class $B$ come out at $7300$, then we can say that _in general_, the students of class $A$ have performed better than the students of class $B$.
 
 I said _in general_ because it is not necessary that all the students of class $A$ might have performed better than all the students of class $B$. It may also have happened that some students of class $A$ may have gotten fewer marks than some students of class $B$, but overall, taken all students together, class $A$ is more perfomant than class $B$.
 
@@ -42,7 +42,7 @@ This formula may be needed to be framed differently in different context but gen
 -   To calculate average speed, we can write&mdash;
     $$ \text{Average Speed} = \frac{\text{Total~ distance}}{\text{Total~ time}} $$
 
--   If we are given that class A has $n_1$ students and has average marks $a_1$ and class B has $n_2$ students and has average marks $a_2$, then what will be the combined average of both the classes, then as per the general idea of averages &mdash;
+-   If we are given that class A has $n_1$ students and has average marks $a_1$ and class B has $n_2$ students and has average marks $a_2$, then their combined average can be calculated as &mdash;
 
 $$
 \begin{aligned}
@@ -53,13 +53,16 @@ $$
 
 This is called weighted average and is covered in the next article.
 
+-   If a person offers successive discounts of $x\%$, $y\%$ and so on. Then the average discount in percent will be&mdash;
+    $$ \text{average discount } = \frac{\text{Net discount in percent}}{\text{number of individual discounts}} $$
+
 ## Range of average
 
 **Assertion&mdash;** The always of $n$ numbers always lies between the smallest and the largest of those $n$ numbers. To illustrate&mdash; If we have $4$ students who have scored $13, 16, 17, 19$ marks in a subject. So their average will lie between $13$ and $19$.
 
 📜 **Proof**
 
-To get the lower limit of the $average$, we can write all the terms from the point of view of the lowest term i.e. $13$. As per the formula of average&mdash;
+To get the lower limit of the $average$, we can write all the terms from the point of view of the lowest term $13$. As per the formula of average&mdash;
 
 $$
 \begin{aligned}
@@ -72,7 +75,7 @@ $$
 
 As $something$ is being added to $13$, so the average must be greater than $13$, which is the smallest value among the four.
 
-Similarly, for the upper limit, we can write all the terms from the point of view of the highest term i.e. 19, like this&mdash;
+Similarly, for the upper limit, we can write all the terms from the point of view of the highest term $19$, like this&mdash;
 
 $$
 \begin{aligned}
@@ -97,6 +100,8 @@ $$ \text{average } = \frac{20 + 22}{2} = 21 \quad✅$$
 
 ## Visualisation of average
 
+### Surplus and Deficit
+
 Let us reverse-engineer the above example.
 
 If we know the average, we can rewrite those terms as&mdash;
@@ -113,7 +118,7 @@ $$
 \qquad \quad = \frac{(21 + 21) + (1-1)}{2}
 $$
 
-If you observe carefully, you will find that the surplus of $1$ above $21$ and the deficiency of $1$ below $21$ will cancel each other out so we get $21$ as the average.
+If you observe carefully, you will find that the surplus of $1$ above $21$ and the deficiency of $1$ below $21$ will cancel each other out so we get $21$ as the average. So they have to be equal.
 
 ### Visualisation from the middle
 
@@ -142,7 +147,7 @@ $$
 
 Again, we get $A=21$.
 
-Note that this property is true for any number of terms. We will also show it for $3$ and more terms.
+👉 Note that this property is true for any number of terms.
 
 ### Visualisation from the left end
 
@@ -191,7 +196,7 @@ Based on the discussion above, we can make following conclusions &mdash;
 
 > -   The average of any $n$ entities with values $a_1, a_2, a_3, \dots a_n$ is calculated as $(a_1 + a_2 + a_3 + \cdots + a_n)/n$.
 > -   The average of $n$ entites always lies between the maximum and the minimum value of the entire set of entities.
-> -   If we have been given $n$ items with average $A$, and a new item with value $x$ is added to the set, then &mdash;
+> -   If we are given $n$ items with average $A$, and a new item with value $x$ is added to the set, then &mdash;
 >     -   to maintain the average $A$, the value of the new item $(x)$ must also be $A$.
 >     -   if the value of the new item is less than $A$, the overall average will decrease.
 >     -   if the value of the new item is more than $A$, the overall average will increase.
@@ -211,15 +216,15 @@ Let the fourth number be $n$, then again applying the formula for all four numbe
 
 $$ 33 = \frac{(S_3 + n)}{4} \Longrightarrow n = 36 $$
 
-This works but this can get pretty calculative. We can instead use the surplus method.
+This works but this can easily get pretty calculative if the values are not small enough. We can instead use the surplus method.
 
 🌳 **Using the surplus method**
 
-Think it like this&mdash; If the fourth number would have been $32$, the average would have remained same. The overall average has increased only because it is more than $32$.
+Think it like this&mdash; If the fourth number would have been $32$, the average would have remained $32$ itself. The overall average has increased only because this fourth number is more than $32$.
 
-So if we treat it as $32+x$, then we can say that to increase the average of $3+1 = 4$ numbers by $33-32 = 1$ unit, we need $4\times 1 = 4$ surplus. So the value of $x$ must be $4$. That means the value of the fourth number must be $32+4 = 36$.
+So if we treat it as $32+x$, then we can say that to increase the average of $3+1 = 4$ numbers by $33-32 = 1$ unit, we need $4\times 1 = 4$ surplus. So the value of $x$ must be $4$. That means the value of the fourth number must be $32+4 = 36$. **Ans** ✅
 
-Visually, We can visualise it like this&mdash;
+We can also visualise this thought process like this&mdash;
 
 $$
 \begin{aligned}
@@ -230,11 +235,11 @@ $$
 
 In this figure, we have placed $A,~B$ and $C$ in the line of average $32$. As has been given that the average increases after the arrival of $D$, therefore $D$ must be of the form $32+x$.
 
-Now, this $x$ has the responsibility of raising the average of $A, B, C~ and~ D$ by $1$. This is equivalent to 'donating' $1$ to each of the term. So $x$ must be $4$.
+Now, this $x$ has the responsibility of raising the average of $A, B, C~ and~ D$ by $1$. This is equivalent to having a surplus which can '_donate_' $1$ to each of the four items. So $x$ must be $4$.
 
 Thus $D$ must be equal to $32+4 = 36$.
 
-You could also have visualised it like this&mdash;
+Alternately, you could also have visualised it like this&mdash;
 
 If $D$ has been able to raise the average of three numbers to $33$, then $D$ itself must be greater than $33$ i.e. $D$ must be of the form $33+k$. The picture for that will look like this&mdash;
 
@@ -245,11 +250,11 @@ $$
 \end{aligned}
 $$
 
-Now this $k$ is used to raise the average of three numbers ($A, B, C$) by $1$, so its value must be $k = 3$. Therefore $D = 33+3 = 36$.
+Now, this excess $k$ effectively raises the average of three numbers ($A, B, C$) by $1$, so its value must be $k = 3$. Therefore $D = 33+3 = 36$.
 
 👉 Internalizing this process will give you an edge in all the questions of averages.
 
-### A cricketer has a certain average for $9$ innings. In the tenth inning, he scores $100$ runs thereby increasing his average by $8$ runs. His new average is&mdash;
+### A cricketer has a certain average for $9$ innings. In the tenth innings, he scores $100$ runs thereby increasing his average by $8$ runs. His new average is&mdash;
 
 1. 20
 2. 24
@@ -264,12 +269,55 @@ Let his old average is $A$. Then visually&mdash;
 $$
 \begin{aligned}
 A+8 \quad&----------- \overset{\normalsize k}{\overset{\LARGE\uparrow}{Xth}}\cr
-A \quad&\text{------ I, II, III, IV ..... ------\quad} \cr
+A \quad&\text{------ I, II, III, ..... IX ------\quad} \cr
 \end{aligned}
 $$
 
-As he has raised the average of his previous innings, that means, he has scored runs equivalent to his new average and he has some extra runs to _'donate'_ to previous innings.
+As he has raised the average of his previous innings, it means that after attaining this new average (A+8), he had some extra runs to _donate_ to his previous $9$ innings so that their average is increased by $8$ runs.
 
-In the $10th$ innings, he has raised the average of $9$ previous innings by $8$ runs therefore he has '_donated_' $8\times 9 = 72$ runs to previous innings to 'help' them rise to the new average.
+Therefore he has _donated_ $8\times 9 = 72$ runs to previous innings to _help_ them rise to the new average.
 
-Therefore his new average is $100-72 = 28$. **Ans** ✅
+So this $Xth$ innings is left with $100-72 = 28$ runs which is the new average. **Ans** ✅
+
+## The speed of the train in going from Nagpur to Allahabad is $100$ km/hr while when coming back from Allahaad to Nagpur, its speed is $150$ km/hr. Find the average speed during the whole journey.
+
+1. 125
+2. 75
+3. 135
+4. 140
+
+**Solution**
+
+Let the distance between the two places be $d$. Then&mdash;
+
+-   Total distance covered in the entire journey $= d + d \Longrightarrow 2d$
+-   Total time taken in the entire journey $= d/100 + d/150 \Longrightarrow d/60$
+
+As per the formula, the average will be &mdash;
+$$ \text{average speed} = \frac{2d}{(d/60)} \Longrightarrow 120 ~km/h \quad✅$$
+
+👉 **Note** if the speeds are given as $S_1$ and $S_2$, then the average speed can be calculated as &mdash;
+$$ \text{average speed} = \frac{2d}{(d/S_1 + d/S_2)} \Longrightarrow \frac{2\times S_1\times S_2}{(S_1 + S_2)} $$
+
+💡 You should remember this formula to get faster results.
+
+## If two successive discounts of $10\%$ and $20\%$ are offered on a product, then what is the average discount?
+
+**Solution**
+
+Note that the discounts are offered on the Marked Price of the product.
+
+Let the marked price of the product is Rs. $100$. Then&mdash;
+
+-   Price after first discount of $10\%\Longrightarrow 100\times (100-10)/100 = 90$
+-   Price after second discount of $20\%\Longrightarrow 90\times (100-20)/100 = 72$
+
+Thus the net discount comes out as $\Longrightarrow (100-71)\times 100/100 = 28\%$.
+
+Thus the average discount is $28/2 = 14\%$. **Ans** ✅
+
+## Things to remember
+
+> -   If a group of items has average $A$, and we add $k$ to all the individual items, the average of the entire group becomes $A+k$.
+> -   To increase the average of $n$ items by $1$, we need to add $n$ to each item of the set. Alternately, to decrease the average of $n$ items by $1$, we need to subtract $1$ from each item.
+> -   If the average age of a group of people is $n$, then $x$ years later, their average age will become $n+x$ since every body is $x$ years older now.

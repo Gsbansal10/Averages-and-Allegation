@@ -138,3 +138,63 @@
 2. 184
 3. 12
 4. All of these.
+
+## The average of $71$ results is $48$. If the average of the first $59$ results is $46$ and that of the last $11$ is $52$, find the $60th$ result.
+
+1. 132
+2. 122
+3. 134
+4. 128
+5. 136
+
+## With an average speed of $40$ km/h, a train reaches its destination in time. If it goes with an average speed of $35$ km/h, it is late by $15$ minutes. The length of the total journey is&mdash;
+
+1. 40 km
+2. 70 km
+3. 30 km
+4. 80 km
+5. 60 km
+
+## In an exam, the average was found to be $x$ marks. After deducting computational error, the average marks of $94$ candidates got reduced from $84$ to $64$. The average thus came down by $18.8$ marks. The numbers of candidates who took the exam were&mdash;
+
+1. 100
+2. 90
+3. 110
+4. 105
+5. 120
+
+## The average age of a group of persons going for a picnic is $16.75$ years. $20$ new persons with an average age of $13.25$ years join the group on the spot due to which the average of the group becomes $15$ years. Find the number of persons initially going for the picnic.
+
+1. 24
+2. 20
+3. 15
+4. 18
+
+## The average of $n$ numbers is $z$. If the number $x$ is replaced by $x'$, then the average becomes $z'$. Find the relation between $n, z, z', x$ and $x'$.
+
+1. $n(z'-2) = (x'-x)$
+2. $n(x'-x) = z'$
+3. $n(z-z') = (x-x')$
+4. $n(x-x') = (z-z')$
+
+## The average salary of workers in a company is Rs. $2000$, the average salary of faculty being Rs. $4000$ and the management trainees being Rs. $1250$. The total number of workers could be&mdash;
+
+1. 450
+2. 300
+3. 110
+4. 500
+
+## A certain number of trucks were required to transport $60$ tons of steel wire from city A to B. However, it was found that since each truck could take $0.5$ tons of carge less than original planned, another $4$ trucks were needed. How many trucks were initially planned to be used?
+
+1. 10
+2. 15
+3. 20
+4. 25
+
+## A team of miners planned to mine $1800$ tons of ore during a certain number of days. Due to technical difficulties in one-third of the planned number of days, the team was able to achieve an output of $20$ tons of ore less than the planned output for each day. To make up for this, the team overachieved for the rest of the days by $20$ tons every day. The end result was that the team completed the task one day ahead of time. How many tons of ore did the team initially plane to ore per day?
+
+1. $50$ tons
+2. $100$ tons
+3. $150$ tons
+4. $200$ tons
+5. $250$ tons

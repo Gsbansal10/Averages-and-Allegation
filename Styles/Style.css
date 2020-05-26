@@ -36,3 +36,11 @@ svg {
 	/* color: #888888; */
 	/* color: #999999; */
 }
+
+ol {
+	list-style-type: upper-alpha;
+}
+
+ul {
+	list-style-type: square;
+}
