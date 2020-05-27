@@ -5,25 +5,28 @@
 If we are given $k$ groups with number of elements as $n_1, n_2, n_3, \ldots, n_k$ and their averages as $a_1, a_2, a_3, \ldots a_k$ then their accumulated average is &mdash;
 $$ average = \frac{n_1\times a_1 + n_2\times a_2 + n_3\times a_3 + \ldots +n_k\times a_k}{n_1 + n_2 + n_3 + \ldots + n_k} $$
 
-If we are given three or more groups than we have no option but to apply the formula but if we are given just two groups, we can apply the concept of surplus and deficit. This process has been explained below&mdash;
+If we are given three or more groups then we have no option but to apply the formula but if we are given just two groups, we can apply the concept of surplus and deficit. This process has been explained below&mdash;
 
 ## Visualisation of weighted average for two groups
 
 Let us assume that we are given two groups having one element each and their averages are $20$ and $23$. Let us visualise them like this &mdash;
 
 $$
-\underset{\small1}{\overset{\normalsize20}{\LARGE|}}
+\text{\small Lower average}\underset{\small1}{\overset{\normalsize20}{\LARGE|}}
 	\underbrace{\text{------------ }}_{\small x}
 		\text{A}
 	\underbrace{\text{ ------------}}_{\small y}
-\underset{\small1}{\overset{\normalsize23}{\LARGE|}}
+\underset{\small1}{\overset{\normalsize23}{\LARGE|}}\text{\small Higher average}
 $$
 
-As there is one $20$ and one $23$, the distances between them $23-20 = 3$ will be equally divided in $x$ and $y$.
+Let $A$ be the average which lies between $20$ and $23$. Apply $Suplus = Deficit$&mdash;
+$$ A - 20 = 23 - A \Longrightarrow A = 21.5 ~~✅$$
+
+In other words, we can say that their respective distances from the average $A$ will be equal.
 
 Thus $x=1.5$ and $y=1.5$, $A = 20+x\Longrightarrow 21.5$. ✅
 
-It was simple enough when there is only one element in each group. But what if we are given that there is one element in first group and two elements in the second group. How could we find the combined average then?
+It was simple enough when there is only one element in each group. But what if we are given that there is one element in the first group and two elements in the second group. How could we find the combined average then?
 
 Well, for starters, we could represent them like this &mdash;
 
@@ -48,7 +51,7 @@ The average will be $20 + x \Longrightarrow 22$. **Ans** ✅
 You can verify it using the formula for averages&mdash;
 $$ average = \frac{20 + 23\times 2}{3} = 22 $$
 
-👉 Solving the questions using the surplus and deficit approach can help get answer faster.
+👉 Solving the questions using the surplus and deficit approach can help you get answer faster.
 
 💡 **Note** that if you find the surplus and deficit approach cumbersome or not applicable in any question, then you can always revert to the standard formula of averages. That will work in all situations.
 
@@ -57,11 +60,11 @@ $$ average = \frac{20 + 23\times 2}{3} = 22 $$
 Suppose we are given $2$ groups $P$ and $Q$. The number of elements in $P$ is $n_1$ and its average is $a_1$. The number of elements in $Q$ is $n_2$ and its average is $n_2$. This situation can be represented as follows &mdash;
 
 $$
-\underset{\small n_1}{\overset{\normalsize a_1}{\LARGE|}}
+\text{\small Lower average}\underset{\small n_1}{\overset{\normalsize a_1}{\LARGE|}}
 	\underbrace{\text{------------ }}_{\small x}
 		\text{A}
 	\underbrace{\text{------------ }}_{\small y}
-\underset{\small n_2}{\overset{\normalsize a_2}{\LARGE|}}
+\underset{\small n_2}{\overset{\normalsize a_2}{\LARGE|}}\text{\small Higher average}
 $$
 
 The deficit will be equal to the surplus. Therefore&mdash;
@@ -73,7 +76,7 @@ $$
 
 This equation is called the _Allegation Equation_. In plain English, it means that the number of elements in the groups are in the inverse ratio of respective distances from the average.
 
-Note that if you rearranged the terms of this equation&mdash;
+Note that if you rearranged the terms of this equation, we would have gotten &mdash;
 
 $$
 \begin{aligned}
@@ -83,7 +86,9 @@ $$
 \end{aligned}
 $$
 
-which is exactly what we would have gotten had we applied the formula directly.
+which is exactly what we would have obtained had we applied the formula directly.
+
+💡 **Pro Tip&mdash;** Use the allegation equation when any of the $a_1, a_2, n_1, n_2$ is to be computed. Use the formula if the value of the accumulated average $A$ is to be determined.
 
 ✍️ **Solved examples**
 
@@ -155,3 +160,5 @@ $$ v\times 87.5/100 = 63 \Longrightarrow v = 72 $$
 Final volume of mixture is $72$ litres whereas the initial volume was $70$ litres.
 
 Therefore $72-70 = 2$ litres of water must have been added to the mixture. **Ans** ✅
+
+In the next article, we will solve tons of interesting problems, so buckle up!!

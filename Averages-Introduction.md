@@ -4,12 +4,12 @@ The topic of averages is relatively simple in its concepts and the questions ask
 
 ## What is an average?
 
-In simple english, it is a analytical tool (just like percentages) that we use for our convinence in day-to-day life. Suppose that there are a 20 students in a class who have scored different marks out of $100$ in the exam, like this&mdash;
+In simple english, it is a simplification tool (just like percentages) that we use for our convinence in day-to-day life. Suppose that there are a 20 students in a class who have scored different marks out of $100$ in the exam, like this&mdash;
 $$ 84,\quad 65,\quad 78,\quad 91,\quad 58,\quad \ldots $$
 
 If someone asks you what are the marks obtained by the students of your class, what will you say?
 
-Would you enumerate the marks obtained by each student for all 20 students? What if there were a 100 students or more? Won't that become too cumbersome and tedious?
+Would you enumerate the marks obtained by each student for all 20 students? isn't that tedious? What if there were a 100 students or more? Won't that become too cumbersome? Well you get the idea.
 
 See, it is clear that the person is asking you to get a general idea of the level of the students of your class. So it is more appropriate to tell him just one number which would give him a rough estimate of that. That number is called as _average_.
 
@@ -28,7 +28,7 @@ Now, there is one problem with this addition approach&mdash; humans are not natu
 We can simply divide this total by the number of students to get a rough estimate of marks obtained by each student, i.e.&mdash;
 $$ \text{average } = \frac{m_1 + m_2 + m_3 + m_4 + \ldots}{n} $$
 
-where $m_1, m_2, m_3, \ldots$ are the marks obtained by each student and $n$ is the number of total students.
+where $m_1, m_2, m_3, \ldots$ are the marks obtained by each student and $n$ is the total number of students.
 
 So in this case, the average of class $A$ is $8200/100 = 82$ and that of class $B$ is $7300/100 = 73$. Thus again, we can draw the same conclusion that class $A$ is better than $B$.
 
@@ -53,12 +53,14 @@ $$
 
 This is called weighted average and is covered in the next article.
 
--   If a person offers successive discounts of $x\%$, $y\%$ and so on. Then the average discount in percent will be&mdash;
+-   If a person offers successive discounts of $x\%$, $y\%$ and so on. Then the average discount in percents will be&mdash;
     $$ \text{average discount } = \frac{\text{Net discount in percent}}{\text{number of individual discounts}} $$
 
-## Range of average
+## Properties of Average
 
-**Assertion&mdash;** The always of $n$ numbers always lies between the smallest and the largest of those $n$ numbers. To illustrate&mdash; If we have $4$ students who have scored $13, 16, 17, 19$ marks in a subject. So their average will lie between $13$ and $19$.
+### Range of average
+
+**Assertion&mdash;** The average of $n$ numbers always lies between the smallest and the largest of those numbers. To illustrate&mdash; If we have $4$ students who have scored $13, 16, 17, 19$ marks in a subject, their average will lie between $13$ and $19$.
 
 📜 **Proof**
 
@@ -73,7 +75,7 @@ $$
 \end{aligned}
 $$
 
-As $something$ is being added to $13$, so the average must be greater than $13$, which is the smallest value among the four.
+As $something$ is being added to $13$, so the average must be greater than $13$.
 
 Similarly, for the upper limit, we can write all the terms from the point of view of the highest term $19$, like this&mdash;
 
@@ -90,6 +92,34 @@ As $something$ is being subtracted from $19$, the $average$ must be less than $1
 
 Hence we have proved that the average lies between $13$ and $19$.
 
+### Addition of a new item to a group
+
+Suppose it is given that the average of $n$ numbers is $a$. A new item is included in this group. What should be the value of this new item so that the average of all items remains unchanged?
+
+**Analysis**
+
+Let the value of the new item is $x$. So, as per the formula of average&mdash;
+
+$$
+\begin{aligned}
+average &= \frac{\text{Sum of all items}}{\text{number of items}} \cr
+\therefore\quad a &= \frac{n\times a + x}{n+1} \cr
+\therefore\quad an + a &= na + x \cr
+\therefore\quad x &= a
+\end{aligned}
+$$
+
+Thus the value of the new item must also be equal to the existing average $a$.
+
+👉 You should always keep this result in mind. It is used in most of the questions for faster results.
+
+💡 Based on this computation, we can also prove that &mdash;
+
+-   If the value of the new item $x$ is less than the average $a$, then the overall average will decrease.
+-   Similaryly, if the value of the new item $x$ is more than the average $a$, then the overall average will increase.
+
+## Visualisation of average
+
 ✍️ **Example**
 
 ### Suppose we have two students who have scored $20$ and $22$ marks out of a maximum of $25$ marks. What is their average?
@@ -97,8 +127,6 @@ Hence we have proved that the average lies between $13$ and $19$.
 **Solution**
 Using the formula written above, we can calculate the average as &mdash;
 $$ \text{average } = \frac{20 + 22}{2} = 21 \quad✅$$
-
-## Visualisation of average
 
 ### Surplus and Deficit
 
@@ -108,6 +136,8 @@ If we know the average, we can rewrite those terms as&mdash;
 
 -   $20 = \text{average} - 1 = 21-1$
 -   $22 = \text{average} + 1 = 21+1$
+
+Observe that equal amount of $1$ is being added and subtracted from the average $21$ in both the numbers.
 
 > It means that the _surplus above the average and shortfall (deficiency) below the average are always equal_.
 
@@ -125,7 +155,7 @@ If you observe carefully, you will find that the surplus of $1$ above $21$ and t
 We can also understand it visually, like this &mdash;
 $$ \underbrace{20\qquad\qquad\qquad\qquad22}_{\normalsize \longleftarrow2\longrightarrow} $$
 
-We have already established in the previous section that the average always lies between the minimum and maximum values. So, the value of the average $(A)$ will lie between $20$ and $22$ but where?
+We have already established in the previous section that the average always lies between the minimum and maximum values. So, the value of the average $(A)$ will lie between $20$ and $22$; but where?
 
 As we have also illustrated that the surplus above the average and the shortfall below the average will be equal, the average $(A)$ will sit right in the middle of these two terms, like this&mdash;
 
@@ -147,13 +177,13 @@ $$
 
 Again, we get $A=21$.
 
-👉 Note that this property is true for any number of terms.
+👉 Note that this property is true for any number of terms. Below, we have shown it for $5$ numbers also.
 
 ### Visualisation from the left end
 
 We can also visualise the average from one end, lets say $20$.
 
-See, if one number is $20$ and other one is also $20$, then the average would have been $20$ itself. We can visualise like this&mdash;
+See, if one number is $20$ and other one is also $20$, then the average would have been $20$ itself, as [explained above](#addition-of-a-new-item-to-a-group). We can visualise like this&mdash;
 
 $$ 20 \quad\text{ ------ A ------ } B $$
 
@@ -161,7 +191,7 @@ But if one of the number is larger than $20$, then it will overshoot that horizo
 
 $$ 20 \quad \text{--------- A ------\quad} \overset{\normalsize 2}{\overset{\LARGE\uparrow}{B}} $$
 
-Here we have written $B$ as $20 + 2$ i.e. the surplus of $2$ over $20$ will now be used to raise the overall average of $A$ and $B$ by $2/2 = 1$.
+Here we have implicitly written $B$ as $20 + 2$. Now, this surplus of $2$ will now raise the overall average of $A$ and $B$ by $2/2 = 1$.
 
 Thus the average of entire system will be $20+1 = 21$.
 
@@ -190,7 +220,34 @@ $$
 
 It means that even if we do not know the individual values of terms, we can assume them all to be equal to the average $A$, only for summation purposes.
 
-## Conclusion of the above discussion
+### Surplus and deficit illustrated using five numbers
+
+Let us once again see the surplus and deficit concept in action for five numbers.
+
+Suppose we are given these five numbers &mdash; $31, \quad32, \quad 34,\quad 36,\quad 42$.
+
+The average of these five numbers is $(31+32+34+36+42)/5 = 35$.
+
+Surplus above $35$ is &mdash;
+
+-   $36-35 = 1$
+-   $42 - 35 = 7$
+
+Total surplus = $1+7 = 8$ ✔️
+
+And the deficit below $35$&mdash;
+
+-   $35 - 34 = 1$
+-   $35 - 32 = 3$
+-   $35 - 31 = 4$
+
+Total deficit = $1+3+4 = 8$ ✔️
+
+Note that the surplus and the deficit are once again equal.
+
+💡 **Please note** that this property is very very important in allegations equation and in solving questions in general. You will see it when we solve a few questions in the third article. So make sure that you understand it well and remember it.
+
+## Conclusions from the above discussion
 
 Based on the discussion above, we can make following conclusions &mdash;
 
@@ -312,12 +369,39 @@ Let the marked price of the product is Rs. $100$. Then&mdash;
 -   Price after first discount of $10\%\Longrightarrow 100\times (100-10)/100 = 90$
 -   Price after second discount of $20\%\Longrightarrow 90\times (100-20)/100 = 72$
 
-Thus the net discount comes out as $\Longrightarrow (100-71)\times 100/100 = 28\%$.
+Thus the net discount comes out as $\Longrightarrow (100-72)\times 100/100 = 28\%$.
 
 Thus the average discount is $28/2 = 14\%$. **Ans** ✅
 
 ## Things to remember
 
-> -   If a group of items has average $A$, and we add $k$ to all the individual items, the average of the entire group becomes $A+k$.
-> -   To increase the average of $n$ items by $1$, we need to add $n$ to each item of the set. Alternately, to decrease the average of $n$ items by $1$, we need to subtract $1$ from each item.
-> -   If the average age of a group of people is $n$, then $x$ years later, their average age will become $n+x$ since every body is $x$ years older now.
+**If a group of numbers has average $A$, and we add $k$ to all the individual numbers, the average of the entire group becomes $A+k$.**
+
+📜 **Proof&mdash;**
+
+Let the individual numbers be $a_1, a_2, a_3, \ldots, a_n$. Thus &mdash;
+
+$$
+\begin{aligned}
+\frac{a_1 + a_2 + a_3 + \ldots + a_n}{n} &= A \cr
+\therefore\quad a_1 + a_2 + a_3 + \ldots + a_n &= A\times n
+\end{aligned}
+$$
+
+Again, Let the new average is $A'$ after adding $k$ to each item&mdash;
+
+$$
+\begin{aligned}
+\frac{(a_1+k) + (a_2+k) + (a_3+k) + \ldots + (a_n+k)}{n} &= A' \cr
+\therefore\quad \frac{a_1 + a_2 + a_3 + \ldots + a_n}{n} + \frac{\overbrace{k + k+k+\ldots+k}^{\text{n times}}}{n} &= A' \cr
+\therefore\quad A + \frac{n\times k}{n} &= A' \cr
+\therefore\quad A' &= A + k
+\end{aligned}
+$$
+
+Hence the new average $A'$ is $k$ more than the previous average. **Proved** ✅
+
+### Corollary&mdash;
+
+-   To increase the average of $n$ items by $1$, we need to add $1$ to each item of the set. Alternately, to decrease the average of $n$ items by $1$, we need to subtract $1$ from each item.
+-   If the average age of a group of people is $n$, then $x$ years later, their average age will become $n+x$ since every body is $x$ years older now.

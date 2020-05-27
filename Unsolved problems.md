@@ -23,7 +23,7 @@ $$
 
 And&mdash;
 
-$$ 14 = \frac{S}{24} \Longrightarrow S = 36 \tag{2}$$
+$$ 14 = \frac{S}{24} \Longrightarrow S = 14\times 24 = 336 \tag{2}$$
 
 From equation $1$ and $2$, $p = 375-336 = 39$. **Ans** ✅
 
@@ -35,7 +35,9 @@ We can view this problem like this&mdash;
 
 The average age of the $24$ students was $14$ years. When the principal is also included, the average becomes $15$.
 
-We know that if the principal had just $14$ years of age, than the average would have remain $14$ itself. But as he has increased the average of $24+1 = 25$ persons by $1$, so his age must be $14 + 25\times 1 = 39$. **Ans** ✅
+If the principal had just $14$ years of age, than the average would have remained $14$ itself.
+
+But as he has increased the average of $24+1 = 25$ persons by $1$, so his age must be $14 + 25\times 1 = 39$. **Ans** ✅
 
 ## The average age of a family of $6$ members is $22$ years. If the age of the youngest member be $7$ years, what was the average age of of family just before the birth of the youngest member?
 
@@ -46,9 +48,9 @@ We know that if the principal had just $14$ years of age, than the average would
 
 **Solution**
 
-At the time of the birth of the youngest member, everybody was $7$ years younger, so their average age was $22-7 = 15$ years.
+At the time of the birth of the youngest member, everybody was $7$ years younger, so their average age was $22-7 = 15$ years. The youngest member just been born, so his age can be taken as $0$ at that point.
 
-At the birth of the youngest member, this average age corresponds to $6$ members, so just before his/her birth, this age must correspond to $5$ members.
+But just before the birth of the youngest member, there were only $5$ persons in the family. Therefore this average of $15$ years corresponds to those $5$ members.
 
 Therefore average of $5$ members must be&mdash; $\text{Total sum of ages}/\text{number of members}$ i.e.
 $$ \text{average} = \frac{6\times 15}{5} = 18 \quad✅$$
@@ -132,15 +134,15 @@ Thus the average of these numbers will increase by $1$. **Ans** ✅
 
 As the consicutive numbers are always in AP, we can use the method of [average as the middle term](https://mathbybihari.com/cat/progressions/average-of-an-ap/).
 
-The middle-term of an AP is always the average of an AP since an AP is balanced about its middle-term. You can also observe that the surplus above and the deficit below the middle term are equal in an AP.
+The middle-term of an AP is always represents its average since an AP is balanced about its middle-term. You can also observe that the surplus above and the deficit below the middle term are equal in an AP.
 
 Thus for five consecutive numbers, the third term ([being the middle-term](https://mathbybihari.com/cat/progressions/average-of-an-ap/#calculating-the-middle-term)) will be the average. Similarly, for seven consecutive numbers, the fourth term (again being the middle-term of seven terms) will be the average.
 
-Thus on including the next two terms, the average shifts from the third number to the fourth number. As the numbers are consecutive, the fourth number will be $1$ more than the third number.
+Thus the average shifts from the third term to the fourth term. As the numbers are consecutive, the fourth term will be $1$ more than the third third.
 
 Thus the average will increase by $1$.
 
-💡 If you know the concept, this reasoning doesn't take five seconds to yield the answer.
+💡 If you know the concept, this reasoning doesn't take five seconds to yield answer.
 
 ## The average of $50$ numbers is $38$. If two numbers, namely, $45$ and $55$ are discarded, the average of the remaining numbers is&mdash;
 
@@ -152,7 +154,7 @@ Thus the average will increase by $1$.
 
 **Solution**
 
-🔴 **Using the formula**
+🌳 **Using the formula**
 
 It is straight-forward using the formula&mdash;
 $$ \text{average of remaining numbers }= \frac{38\times 50 - (45 + 55)}{48} = 37.5 $$
@@ -176,7 +178,7 @@ Thus the remaining average will be $\Longrightarrow 38 - 0.5 = 37.5$ **Ans** ✅
 5. 16
 
 **Solution**
-This question can be done using the concept of weighted average or using the allegation equation. We are using the concept of allegations.
+This question can be done using the concept of weighted average or using the allegation equation. We are using the [concept of allegations](TODO).
 
 Visualise this situation like this &mdash;
 
@@ -340,9 +342,9 @@ Thus he has gotten $68$ questions correct. **Ans** ✅
 
 🌳 **Using thought process**
 
-This is an interesting problem. We need to think slightly differently in this question.
+This is an interesting problem. Instead of thinking from the point of view of correct answers, we need to think from the point of view of incorrect answers.
 
-If he had gotten all $100$ of the questions correct, then he would have scored $100\times 2 = 200$ marks.
+See, the maximum marks which can be obtained is $100\times 2 = 200$.
 
 Now, think of it like this&mdash; _if he gets one incorrect answer, he would lose $2.5$ marks&mdash; $0.5$ mark for actual negative marking and $2$ marks which he could have gotten if his answer were correct._
 
@@ -451,9 +453,9 @@ That's because the second percentage increase is not on the initial population b
 
 **Solution**
 
-Since out of $270$ runs, he has to increase the average of $86$ previous innings in whole numbers so he can increase his average either by $1$ or by $2$ or by $3$. He cannot increase his average by $4$ and above since it would require $86\times 4 = 344$ or more runs.
+Since in the $87th$ innings, he has to increase the average of $86$ previous innings in whole numbers. Therefore he can increase his average either by $1$ or by $2$ or by $3$. He cannot increase his average by $4$ and above since it would require $86\times 4 = 344$ or more runs whereas he has scored only $270$ runs.
 
-Now, let us assume that his previous average of $86th$ innings is $a$. And the new average is $A$. Now this $A$ can take values like $a+1,~a+2,~\&~ a+3$.
+Now, let us assume that his previous average of $86th$ innings is $a$. And the new average is $A$. As discussed, this $A$ can take values $a+1,~a+2,~\&~ a+3$.
 
 Now, applying the formula of averages for $87$ innings &mdash;
 
@@ -497,6 +499,18 @@ $$ a_{60} = 71\times 48 - 59\times 46 - 11\times 52 \Longrightarrow 122 \quad �
 4. 80 km
 5. 60 km
 
+**Solution**
+
+Let the initial time taken by the train is $t$ hours and the distance is $d$. As per the question&mdash;
+$$ 40\times t = d \tag{1} $$
+
+Now, again, as per the question&mdash;
+$$ 35\times (t + 15/60) = d \tag{2} $$
+
+(_In this equation, we have converted $15$ minutes into hours ($15/60$) as speed has been given in km per hours_).
+
+Solving these equations, $t = 7/4$ hours and $d = 70$ km.
+
 ## In an exam, the average was found to be $x$ marks. After deducting computational error, the average marks of $94$ candidates got reduced from $84$ to $64$. The average thus came down by $18.8$ marks. The numbers of candidates who took the exam were&mdash;
 
 1. 100
@@ -505,12 +519,47 @@ $$ a_{60} = 71\times 48 - 59\times 46 - 11\times 52 \Longrightarrow 122 \quad �
 4. 105
 5. 120
 
+**Solution**
+
+Let the total number of students be $n$.
+
+Then as per the question&mdash;
+
+$$
+\begin{aligned}
+n\times 18.8 &= 94 \times (84-64) \cr
+\therefore\quad n &= \frac{94\times 20}{18.8} = 100
+\end{aligned}
+$$
+
+Hence total number of students is $100$. **Ans** ✅
+
 ## The average age of a group of persons going for a picnic is $16.75$ years. $20$ new persons with an average age of $13.25$ years join the group on the spot due to which the average of the group becomes $15$ years. Find the number of persons initially going for the picnic.
 
 1. 24
 2. 20
 3. 15
 4. 18
+
+**Solution**
+Using the allegation equation &mdash;
+
+$$
+\text{\small New persons}\underset{\small 20}{\overset{\normalsize 13.25}{\LARGE|}}
+	\overbrace{\text{------------ }}^{\small 1.75}~
+		\text{15}~
+	\overbrace{\text{------------ }}^{\small 1.75}
+\underset{\small n}{\overset{\normalsize 16.75}{\LARGE|}} \text{\small Original group}
+$$
+
+$$
+\begin{aligned}
+\frac{20}{n} &= \frac{1.75}{1.75} \cr
+\therefore\quad n &= 20
+\end{aligned}
+$$
+
+Thus, the $20$ persons were going for picnic initially. **Ans** ✅
 
 ## The average of $n$ numbers is $z$. If the number $x$ is replaced by $x'$, then the average becomes $z'$. Find the relation between $n, z, z', x$ and $x'$.
 
@@ -519,12 +568,55 @@ $$ a_{60} = 71\times 48 - 59\times 46 - 11\times 52 \Longrightarrow 122 \quad �
 3. $n(z-z') = (x-x')$
 4. $n(x-x') = (z-z')$
 
+**Solution**
+
+Let the sum of all numbers excluding $x$ is $S$. Then before the replacement&mdash;
+
+$$
+\begin{aligned}
+z &= \frac{S + x}{n} \cr
+%\therefore\quad S &= nz -x
+\end{aligned}
+$$
+
+After replacement&mdash;
+
+$$
+\begin{aligned}
+z' &= \frac{S+x'}{n} \cr
+\therefore\quad  &= \frac{S + x + (x' -x)}{n} \quad\therefore \text{added and subtracted }x\cr
+\therefore\quad &= \frac{S+x}{n} + \frac{x' -x}{n} \cr
+\therefore\quad &= z + \frac{x' -x}{n} \cr
+\therefore\quad n(z' -z) &= (x' -x) \cr
+\therefore\quad n(z-z') &= (x-x')
+\end{aligned}
+$$
+
+Hence answer is $C$. **Ans** ✅
+
 ## The average salary of workers in a company is Rs. $2000$, the average salary of faculty being Rs. $4000$ and the management trainees being Rs. $1250$. The total number of workers could be&mdash;
 
 1. 450
 2. 300
 3. 110
 4. 500
+
+**Solution**
+Using the allegation equation&mdash;
+
+$$
+\text{\small Management trainees}\underset{\small n_1}{\overset{\normalsize 1250}{\LARGE|}}
+	\overbrace{\text{------------ }}^{\small 750}~
+		\text{2000}~
+	\overbrace{\text{------------ }}^{\small 2000}
+\underset{\small n_2}{\overset{\normalsize 4000}{\LARGE|}} \text{\small Faculties}
+$$
+
+$$ \frac{n_1}{n_2} = \frac{2000}{750} = \frac{8}{3} $$
+
+As the ratio of $n_1$ and $n_2$ is of the form $8:3$, so their total must be of the form $8k + 3k = 11k$. Thus the total must be divisible by $11$.
+
+Out of the given options, $C$ fits correct. **Ans** ✅
 
 ## A certain number of trucks were required to transport $60$ tons of steel wire from city A to B. However, it was found that since each truck could take $0.5$ tons of carge less than original planned, another $4$ trucks were needed. How many trucks were initially planned to be used?
 
@@ -533,6 +625,20 @@ $$ a_{60} = 71\times 48 - 59\times 46 - 11\times 52 \Longrightarrow 122 \quad �
 3. 20
 4. 25
 
+**Solution**
+
+Let the number of trucks planned to be used is $n$ and the estimated capacity of each truck was $c$ tons.
+
+Therefore, as per the question&mdash;
+$$ n\times c = 60 \tag{1} $$
+
+Again, as per the question&mdash;
+$$ (n+4)\times (c+0.5) = 60 \tag{2}$$
+
+Now, if you try to solve these two equations using the traditional method, it would take a very long time. Try to fit in the options instead for the value of $n$.
+
+Both the equations are satisfied at $n = 20$, and $c = 3$. **Ans** ✅
+
 ## A team of miners planned to mine $1800$ tons of ore during a certain number of days. Due to technical difficulties in one-third of the planned number of days, the team was able to achieve an output of $20$ tons of ore less than the planned output for each day. To make up for this, the team overachieved for the rest of the days by $20$ tons every day. The end result was that the team completed the task one day ahead of time. How many tons of ore did the team initially plane to ore per day?
 
 1. $50$ tons
@@ -540,3 +646,31 @@ $$ a_{60} = 71\times 48 - 59\times 46 - 11\times 52 \Longrightarrow 122 \quad �
 3. $150$ tons
 4. $200$ tons
 5. $250$ tons
+
+**Solution**
+
+Let the number of planned days be $n$ and the initial estimated capacity for each day was $c$ tons per day.
+
+As per the question&mdash;
+$$ n\times c = 1800 \tag{1}$$
+
+In one-third days, the team mined &mdash;
+$$ \frac{n}{3} \times (c-20) \text{ ~tons}$$
+
+As the team has completed the task one day ahead of time therefore the team worked for remaining $(2n/3) - 1$ days. In this period, the team must have mined &mdash;
+$$ \left[\frac{2n}{3} -1\right] \times (c+20) \text{~ tons}$$
+
+These two outputs must add up to $1800$ tons. Therefore &mdash;
+
+$$
+\begin{aligned}
+\frac{n}{3} \times (c-20) + \left[\frac{2n}{3} -1\right] \times (c+20) &= 1800 \cr
+\therefore\quad20n - 3c &= 60
+\end{aligned}
+$$
+
+And we already have equation $1$ &mdash; $n\times c = 1800$
+
+Solving these two equations using the traditional methods is a time-consuming task. We can instead try options.
+
+Option $B$ satisfies both the equations correctly i.e. $n = 100$, $c = 18$. **Ans** ✅
