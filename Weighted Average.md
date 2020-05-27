@@ -7,19 +7,19 @@ $$ average = \frac{n_1\times a_1 + n_2\times a_2 + n_3\times a_3 + \ldots +n_k\t
 
 If we are given three or more groups then we have no option but to apply the formula but if we are given just two groups, we can apply the concept of surplus and deficit. This process has been explained below&mdash;
 
-## Visualisation of weighted average for two groups
+## Visualization of the weighted average for two groups
 
-Let us assume that we are given two groups having one element each and their averages are $20$ and $23$. Let us visualise them like this &mdash;
+Let us assume that we are given two groups having one element each and their averages are $20$ and $23$. Let us visualize them like this &mdash;
 
 $$
 \text{\small Lower average}\underset{\small1}{\overset{\normalsize20}{\LARGE|}}
-	\underbrace{\text{------------ }}_{\small x}
-		\text{A}
-	\underbrace{\text{ ------------}}_{\small y}
+    \underbrace{\text{------------ }}_ {\small x}
+        \text{A}
+    \underbrace{\text{ ------------}}_ {\small y}
 \underset{\small1}{\overset{\normalsize23}{\LARGE|}}\text{\small Higher average}
 $$
 
-Let $A$ be the average which lies between $20$ and $23$. Apply $Suplus = Deficit$&mdash;
+Let $A$ be the average which lies between $20$ and $23$. Apply $Surplus = Deficit$&mdash;
 $$ A - 20 = 23 - A \Longrightarrow A = 21.5 ~~✅$$
 
 In other words, we can say that their respective distances from the average $A$ will be equal.
@@ -32,9 +32,9 @@ Well, for starters, we could represent them like this &mdash;
 
 $$
 \underset{\small1}{\overset{\normalsize20}{\LARGE|}}
-	\underbrace{\text{------------ }}_{\small x}
-		\text{A}
-	\underbrace{\text{ ------------}}_{\small y}
+    \underbrace{\text{------------ }}_ {\small x}
+        \text{A}
+    \underbrace{\text{ ------------}}_ {\small y}
 \underset{\small2}{\overset{\normalsize23}{\LARGE|}}
 $$
 
@@ -51,7 +51,7 @@ The average will be $20 + x \Longrightarrow 22$. **Ans** ✅
 You can verify it using the formula for averages&mdash;
 $$ average = \frac{20 + 23\times 2}{3} = 22 $$
 
-👉 Solving the questions using the surplus and deficit approach can help you get answer faster.
+👉 Solving the questions using the surplus and deficit approach can help you get the answer faster.
 
 💡 **Note** that if you find the surplus and deficit approach cumbersome or not applicable in any question, then you can always revert to the standard formula of averages. That will work in all situations.
 
@@ -61,9 +61,9 @@ Suppose we are given $2$ groups $P$ and $Q$. The number of elements in $P$ is $n
 
 $$
 \text{\small Lower average}\underset{\small n_1}{\overset{\normalsize a_1}{\LARGE|}}
-	\underbrace{\text{------------ }}_{\small x}
-		\text{A}
-	\underbrace{\text{------------ }}_{\small y}
+    \underbrace{\text{------------ }}_ {\small x}
+        \text{A}
+    \underbrace{\text{------------ }}_ {\small y}
 \underset{\small n_2}{\overset{\normalsize a_2}{\LARGE|}}\text{\small Higher average}
 $$
 
@@ -74,7 +74,7 @@ n_1\times (A-a_1) = n_2\times (a_2 - A) \newline
 \frac{n_1}{n_2} = \frac{y}{x}
 $$
 
-This equation is called the _Allegation Equation_. In plain English, it means that the number of elements in the groups are in the inverse ratio of respective distances from the average.
+This equation is called the _Allegation Equation_. In plain English, it means that the number of elements in the groups is in the inverse ratio of respective distances from the average.
 
 Note that if you rearranged the terms of this equation, we would have gotten &mdash;
 
@@ -98,7 +98,7 @@ which is exactly what we would have obtained had we applied the formula directly
 It is easier with the direct application of the formula&mdash;
 $$ Average = \frac{5\times 5 + 3\times 4 }{5+3} = 4.675 \quad✅ $$
 
-### Two types of oils having the rates of Rs. 4/kg and Rs. 5/kg respectively are mixed in order to produce a mixture having the rate of Rs. 4.60/kg. What should be the amount of the second type of oil if the amount of the first type of oil in the mixture is 40 kg?
+### Two types of oils having the rates of Rs. 4/kg and Rs. 5/kg respectively are mixed to produce a mixture having the rate of Rs. 4.60/kg. What should be the amount of the second type of oil if the amount of the first type of oil in the mixture is 40 kg?
 
 **Solution**
 
@@ -112,9 +112,9 @@ Visually, you could have just made a diagram and surmise the result easily like 
 
 $$
 \underset{\small 40}{\overset{\normalsize 4}{\LARGE|}}
-	\overbrace{\text{------------ }}^{\small .6}
-		\text{4.6}
-	\overbrace{\text{------------ }}^{\small .4}
+    \overbrace{\text{------------ }}^{\small .6}
+        \text{4.6}
+    \overbrace{\text{------------ }}^{\small .4}
 \underset{\small n_2}{\overset{\normalsize 5}{\LARGE|}}
 $$
 
@@ -127,19 +127,19 @@ $$
 
 ## Mixture
 
-The questions related to mixing of materials (generally liquids like milk and water, oil and water etc) fall under this category.
+The questions related to mixing of materials (for eg. liquids like milk and water, oil and water etc) fall under this category.
 
-The point to remember in these questions is that once these individual components are mixed, the resultant mixture is assumed to be homogeneous i.e. the ratio of liquids will be same in every drop of it.
+The point to remember in these questions is that once these individual components are mixed, the resultant mixture is assumed to be homogeneous i.e. the ratio of liquids will be the same in every drop of it.
 
 ✍️ **Examples&mdash;**
 
-### A container has $50$ litres mixture of oil and water in ratio of $1:9$. If $5$ litres of this mixture is taken out and thrown away, what would be amount of each liquid left in the container?
+### A container has $50$ litres mixture of oil and water in the ratio of $1:9$. If $5$ litres of this mixture is taken out and thrown away, what would be the amount of each liquid left in the container?
 
 **Solution**
 
 The original quantity of oil and water would be $5$ and $45$ respectively.
 
-And, as the mixture is homogeneous, the $5$ litres of liquid that was thrown away, also had liquids in ratio of $1:9$ i.e. $0.5$ litres of oil and $4.5$ litres of water.
+And, as the mixture is homogeneous, the $5$ litres of liquid that was thrown away, also had liquids in the ratio of $1:9$ i.e. $0.5$ litres of oil and $4.5$ litres of water.
 
 Therefore we are left with $5 - 0.5 = 4.5$ litres of oil and $45 - 4.5 = 40.5$ litres of water. **Ans** ✅
 
@@ -149,7 +149,7 @@ Therefore we are left with $5 - 0.5 = 4.5$ litres of oil and $45 - 4.5 = 40.5$ l
 
 **Solution**
 
-In this question, you can observe that the absolute amount of alcohol is not changing at all. It remains same through out the process. So we will solve the question from the point of view of this constant amount.
+In this question, you can observe that the absolute amount of alcohol is not changing at all. It remains the same throughout the process. So we will solve the question for this constant amount.
 
 Initially, the alcohol is $90\%$ of the mixture i.e. $70\times 90/100 = 63$ litres.
 After mixing of water, the water becomes $12.5\%$, that means the milk will become $100-12.5 = 87.5\%$ of the mixture.
@@ -157,7 +157,7 @@ After mixing of water, the water becomes $12.5\%$, that means the milk will beco
 But as we said that the absolute amount of the milk is constant at $63$, therefore this $63$ litres is now $87.5\%$ of the final volume of the mixture. If we assume this volume as $v$, then&mdash;
 $$ v\times 87.5/100 = 63 \Longrightarrow v = 72 $$
 
-Final volume of mixture is $72$ litres whereas the initial volume was $70$ litres.
+The final volume of the mixture is $72$ litres whereas the initial volume was $70$ litres.
 
 Therefore $72-70 = 2$ litres of water must have been added to the mixture. **Ans** ✅
 

@@ -1,27 +1,27 @@
 # Averages- Introduction
 
-The topic of averages is relatively simple in its concepts and the questions asked are not much difficult. Further, the questions from this topic are, generally, not asked directly but as an intermediate step to some other problem. Lets begin.
+The topic of averages is relatively simple in its concepts and the questions asked are not much difficult. Further, the questions from this topic are, generally, not asked directly but as an intermediate step to some other problem. Let's begin.
 
-## What is an average?
+## What is Average?
 
-In simple english, it is a simplification tool (just like percentages) that we use for our convinence in day-to-day life. Suppose that there are a 20 students in a class who have scored different marks out of $100$ in the exam, like this&mdash;
+In simple English, it is a simplification tool (just like percentages) that we use for our convenience in day-to-day life. Suppose that 20 students in a class have scored different marks out of $100$ in the exam, like this&mdash;
 $$ 84,\quad 65,\quad 78,\quad 91,\quad 58,\quad \ldots $$
 
 If someone asks you what are the marks obtained by the students of your class, what will you say?
 
-Would you enumerate the marks obtained by each student for all 20 students? isn't that tedious? What if there were a 100 students or more? Won't that become too cumbersome? Well you get the idea.
+Would you enumerate the marks obtained by each student for all 20 students? isn't that tedious? What if there were 100 students or more? Won't that become too cumbersome? Well, you get the idea.
 
-See, it is clear that the person is asking you to get a general idea of the level of the students of your class. So it is more appropriate to tell him just one number which would give him a rough estimate of that. That number is called as _average_.
+See, it is clear that the person is asking you to get a general idea of the level of the students in your class. So it is more appropriate to tell him just one number which would give him a rough estimate of that. That number is called as _average_.
 
 ## Why do we need average?
 
-In addition to the use-case shown above, we can understand one another case where average is useful.
+In addition to the use-case shown above, we can understand one another case where the average is useful.
 
-Suppose we have two classes of students&mdash; $A$ and $B$ having $100$ students in each class. We want to compare the performace level of students in each class. How can we do it?
+Suppose we have two classes of students&mdash; $A$ and $B$ having $100$ students in each class. We want to compare the performance level of students in each class. How can we do it?
 
 One way is to add the marks obtained by all students of a class and see which is higher. For eg. if the total of class $A$ comes out at $8200$ and class $B$ come out at $7300$, then we can say that _in general_, the students of class $A$ have performed better than the students of class $B$.
 
-I said _in general_ because it is not necessary that all the students of class $A$ might have performed better than all the students of class $B$. It may also have happened that some students of class $A$ may have gotten fewer marks than some students of class $B$, but overall, taken all students together, class $A$ is more perfomant than class $B$.
+I said _in general_ because not all students of class $A$ may have performed better than all the students of class $B$. It may also have happened that some students of class $A$ may have gotten fewer marks than some students of class $B$, but overall, taken all students together, class $A$ is a better performer than class $B$.
 
 Now, there is one problem with this addition approach&mdash; humans are not naturally equipped to deal with large numbers so if we continue using $8200$ and $7300$ in our calculations, it would be a tedious and quite possibly, an error-prone task. So what do we do?
 
@@ -32,12 +32,12 @@ where $m_1, m_2, m_3, \ldots$ are the marks obtained by each student and $n$ is 
 
 So in this case, the average of class $A$ is $8200/100 = 82$ and that of class $B$ is $7300/100 = 73$. Thus again, we can draw the same conclusion that class $A$ is better than $B$.
 
-## Generalised idea of average
+## Generalized idea of average
 
 The general formula for average will always remain same&mdash;
 $$ average = \frac{\text{Total quantity}}{\text{number of elements}}  $$
 
-This formula may be needed to be framed differently in different context but general idea will always remain same as has been shown above. For eg&mdash;
+This formula may be needed to be framed differently in a different context but the general idea will always remain the same as has been shown above. For eg&mdash;
 
 -   To calculate average speed, we can write&mdash;
     $$ \text{Average Speed} = \frac{\text{Total~ distance}}{\text{Total~ time}} $$
@@ -51,7 +51,7 @@ average &= \frac{\text{Total marks}}{\text{Total number of students}} \cr
 \end{aligned}
 $$
 
-This is called weighted average and is covered in the next article.
+This is called the weighted average and is covered in the next article.
 
 -   If a person offers successive discounts of $x\%$, $y\%$ and so on. Then the average discount in percents will be&mdash;
     $$ \text{average discount } = \frac{\text{Net discount in percent}}{\text{number of individual discounts}} $$
@@ -116,9 +116,9 @@ Thus the value of the new item must also be equal to the existing average $a$.
 💡 Based on this computation, we can also prove that &mdash;
 
 -   If the value of the new item $x$ is less than the average $a$, then the overall average will decrease.
--   Similaryly, if the value of the new item $x$ is more than the average $a$, then the overall average will increase.
+-   Similarly, if the value of the new item $x$ is more than the average $a$, then the overall average will increase.
 
-## Visualisation of average
+## Visualization of average
 
 ✍️ **Example**
 
@@ -137,7 +137,7 @@ If we know the average, we can rewrite those terms as&mdash;
 -   $20 = \text{average} - 1 = 21-1$
 -   $22 = \text{average} + 1 = 21+1$
 
-Observe that equal amount of $1$ is being added and subtracted from the average $21$ in both the numbers.
+Observe that an equal amount - $1$ is being added and subtracted from the average $21$ in both the numbers.
 
 > It means that the _surplus above the average and shortfall (deficiency) below the average are always equal_.
 
@@ -148,9 +148,9 @@ $$
 \qquad \quad = \frac{(21 + 21) + (1-1)}{2}
 $$
 
-If you observe carefully, you will find that the surplus of $1$ above $21$ and the deficiency of $1$ below $21$ will cancel each other out so we get $21$ as the average. So they have to be equal.
+If you observe, you will find that the surplus of $1$ above $21$ and the deficiency of $1$ below $21$ will cancel each other out so we get $21$ as the average. So they have to be equal.
 
-### Visualisation from the middle
+### Visualization from the middle
 
 We can also understand it visually, like this &mdash;
 $$ \underbrace{20\qquad\qquad\qquad\qquad22}_{\normalsize \longleftarrow2\longrightarrow} $$
@@ -179,21 +179,21 @@ Again, we get $A=21$.
 
 👉 Note that this property is true for any number of terms. Below, we have shown it for $5$ numbers also.
 
-### Visualisation from the left end
+### Visualization from the left end
 
-We can also visualise the average from one end, lets say $20$.
+We can also visualize the average from one end, lets say $20$.
 
-See, if one number is $20$ and other one is also $20$, then the average would have been $20$ itself, as [explained above](#addition-of-a-new-item-to-a-group). We can visualise like this&mdash;
+See, if one number is $20$ and the other one is also $20$, then the average would have been $20$ itself, as [explained above](#addition-of-a-new-item-to-a-group). We can visualize like this&mdash;
 
 $$ 20 \quad\text{ ------ A ------ } B $$
 
-But if one of the number is larger than $20$, then it will overshoot that horizontal line of average, like this&mdash;
+But if one of the numbers is larger than $20$, then it will overshoot that horizontal line of average, like this&mdash;
 
 $$ 20 \quad \text{--------- A ------\quad} \overset{\normalsize 2}{\overset{\LARGE\uparrow}{B}} $$
 
-Here we have implicitly written $B$ as $20 + 2$. Now, this surplus of $2$ will now raise the overall average of $A$ and $B$ by $2/2 = 1$.
+Here we have implicitly written $B$ as $20 + 2$. Now, this surplus of $2$ will raise the overall average of $A$ and $B$ by $2/2 = 1$.
 
-Thus the average of entire system will be $20+1 = 21$.
+Thus the average of the entire system will be $20+1 = 21$.
 
 We can also arrive at this result using the formula approach, like this&mdash;
 
@@ -208,7 +208,7 @@ $$
 
 ### Assumed values of individual terms
 
-Suppose we are given that the average of $n$ terms is $A$, then as far as their sum is concerned, their individual values do not matter. In other words &mdash;
+Suppose we are given that the average of $n$ terms is $A$, then as far as their sum is concerned, their values do not matter. In other words &mdash;
 
 $$
 \begin{aligned}
@@ -249,10 +249,10 @@ Note that the surplus and the deficit are once again equal.
 
 ## Conclusions from the above discussion
 
-Based on the discussion above, we can make following conclusions &mdash;
+Based on the discussion above, we can make the following conclusions &mdash;
 
 > -   The average of any $n$ entities with values $a_1, a_2, a_3, \dots a_n$ is calculated as $(a_1 + a_2 + a_3 + \cdots + a_n)/n$.
-> -   The average of $n$ entites always lies between the maximum and the minimum value of the entire set of entities.
+> -   The average of $n$ entities always lies between the maximum and the minimum value of the entire set of entities.
 > -   If we are given $n$ items with average $A$, and a new item with value $x$ is added to the set, then &mdash;
 >     -   to maintain the average $A$, the value of the new item $(x)$ must also be $A$.
 >     -   if the value of the new item is less than $A$, the overall average will decrease.
@@ -281,7 +281,7 @@ Think it like this&mdash; If the fourth number would have been $32$, the average
 
 So if we treat it as $32+x$, then we can say that to increase the average of $3+1 = 4$ numbers by $33-32 = 1$ unit, we need $4\times 1 = 4$ surplus. So the value of $x$ must be $4$. That means the value of the fourth number must be $32+4 = 36$. **Ans** ✅
 
-We can also visualise this thought process like this&mdash;
+We can also visualize this thought process like this&mdash;
 
 $$
 \begin{aligned}
@@ -296,7 +296,7 @@ Now, this $x$ has the responsibility of raising the average of $A, B, C~ and~ D$
 
 Thus $D$ must be equal to $32+4 = 36$.
 
-Alternately, you could also have visualised it like this&mdash;
+Alternately, you could also have visualized it like this&mdash;
 
 If $D$ has been able to raise the average of three numbers to $33$, then $D$ itself must be greater than $33$ i.e. $D$ must be of the form $33+k$. The picture for that will look like this&mdash;
 
@@ -334,9 +334,9 @@ As he has raised the average of his previous innings, it means that after attain
 
 Therefore he has _donated_ $8\times 9 = 72$ runs to previous innings to _help_ them rise to the new average.
 
-So this $Xth$ innings is left with $100-72 = 28$ runs which is the new average. **Ans** ✅
+So this $Xth$ inning is left with $100-72 = 28$ runs which is the new average. **Ans** ✅
 
-## The speed of the train in going from Nagpur to Allahabad is $100$ km/hr while when coming back from Allahaad to Nagpur, its speed is $150$ km/hr. Find the average speed during the whole journey.
+## The speed of the train in going from Nagpur to Allahabad is $100$ km/hr while when coming back from Allahabad to Nagpur, its speed is $150$ km/hr. Find the average speed during the whole journey.
 
 1. 125
 2. 75
@@ -375,7 +375,7 @@ Thus the average discount is $28/2 = 14\%$. **Ans** ✅
 
 ## Things to remember
 
-**If a group of numbers has average $A$, and we add $k$ to all the individual numbers, the average of the entire group becomes $A+k$.**
+**If a group of numbers has an average $A$, and we add $k$ to all the individual numbers, the average of the entire group becomes $A+k$.**
 
 📜 **Proof&mdash;**
 
@@ -404,4 +404,4 @@ Hence the new average $A'$ is $k$ more than the previous average. **Proved** ✅
 ### Corollary&mdash;
 
 -   To increase the average of $n$ items by $1$, we need to add $1$ to each item of the set. Alternately, to decrease the average of $n$ items by $1$, we need to subtract $1$ from each item.
--   If the average age of a group of people is $n$, then $x$ years later, their average age will become $n+x$ since every body is $x$ years older now.
+-   If the average age of a group of people is $n$, then $x$ years later, their average age will become $n+x$ since everybody is $x$ years older now.
