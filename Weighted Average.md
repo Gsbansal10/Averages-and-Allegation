@@ -9,7 +9,7 @@ If we are given three or more groups than we have no option but to apply the for
 
 ## Visualisation of weighted average for two groups
 
-Let us assume that we are given two groups with one element in each group and their averages are $20$ and $23$. Let us visualise them like this &mdash;
+Let us assume that we are given two groups having one element each and their averages are $20$ and $23$. Let us visualise them like this &mdash;
 
 $$
 \underset{\small1}{\overset{\normalsize20}{\LARGE|}}
@@ -19,11 +19,13 @@ $$
 \underset{\small1}{\overset{\normalsize23}{\LARGE|}}
 $$
 
-As there is one $20$ and $23$, the distances between them $23-20 = 3$ will be equally divided in $x$ and $y$.
+As there is one $20$ and one $23$, the distances between them $23-20 = 3$ will be equally divided in $x$ and $y$.
 
 Thus $x=1.5$ and $y=1.5$, $A = 20+x\Longrightarrow 21.5$. ✅
 
-It was simple enough when there is only one element in each group. But what if we are given that there is one element in first group and two elements in the second group. The averages of these groups are still $20$ and $23$ respectively. We could represent them like this &mdash;
+It was simple enough when there is only one element in each group. But what if we are given that there is one element in first group and two elements in the second group. How could we find the combined average then?
+
+Well, for starters, we could represent them like this &mdash;
 
 $$
 \underset{\small1}{\overset{\normalsize20}{\LARGE|}}
@@ -50,7 +52,7 @@ $$ average = \frac{20 + 23\times 2}{3} = 22 $$
 
 💡 **Note** that if you find the surplus and deficit approach cumbersome or not applicable in any question, then you can always revert to the standard formula of averages. That will work in all situations.
 
-### Generalisation of this approach
+### Generalization of this approach
 
 Suppose we are given $2$ groups $P$ and $Q$. The number of elements in $P$ is $n_1$ and its average is $a_1$. The number of elements in $Q$ is $n_2$ and its average is $n_2$. This situation can be represented as follows &mdash;
 
@@ -111,11 +113,18 @@ $$
 \underset{\small n_2}{\overset{\normalsize 5}{\LARGE|}}
 $$
 
+$$
+\begin{aligned}
+\frac{40}{n_2} &= \frac{0.4}{0.6} \cr
+\therefore\quad n_2 &= 60 \quad ✅
+\end{aligned}
+$$
+
 ## Mixture
 
 The questions related to mixing of materials (generally liquids like milk and water, oil and water etc) fall under this category.
 
-The point to remember in these questions is that once these individual components are mixed, the resultant mixture is assumed as homogenious i.e. the ratio of liquids will be same in every drop of it.
+The point to remember in these questions is that once these individual components are mixed, the resultant mixture is assumed to be homogeneous i.e. the ratio of liquids will be same in every drop of it.
 
 ✍️ **Examples&mdash;**
 
@@ -125,11 +134,11 @@ The point to remember in these questions is that once these individual component
 
 The original quantity of oil and water would be $5$ and $45$ respectively.
 
-And, as the mixture is homogenious, the $5$ litres of liquid that was thrown away, also had liquids in ratio of $1:9$ i.e. $0.5$ litres of oil and $4.5$ litres of water.
+And, as the mixture is homogeneous, the $5$ litres of liquid that was thrown away, also had liquids in ratio of $1:9$ i.e. $0.5$ litres of oil and $4.5$ litres of water.
 
 Therefore we are left with $5 - 0.5 = 4.5$ litres of oil and $45 - 4.5 = 40.5$ litres of water. **Ans** ✅
 
-💡 Observe that the ratio of liquids in the remaining mixture is $4.5: 40.5 \Longrightarrow 1:9$. And it has to be because it is a homogenious mixture.
+💡 Observe that the ratio of liquids in the remaining mixture is also $4.5: 40.5 \Longrightarrow 1:9$. And it has to be because it is a homogeneous mixture.
 
 ### A mixture of $70$ litres of alcohol and water contains $10\%$ of water. How much water must be added to the above mixture to make the water $12.5\%$ of the resulting mixture?
 
@@ -140,7 +149,7 @@ In this question, you can observe that the absolute amount of alcohol is not cha
 Initially, the alcohol is $90\%$ of the mixture i.e. $70\times 90/100 = 63$ litres.
 After mixing of water, the water becomes $12.5\%$, that means the milk will become $100-12.5 = 87.5\%$ of the mixture.
 
-But as we said that the absolute amount of the milk is constant at $63$, therefore this $63$ litres is $87.5\%$ of the final volume of the mixture. If we assume this volume as $v$, then&mdash;
+But as we said that the absolute amount of the milk is constant at $63$, therefore this $63$ litres is now $87.5\%$ of the final volume of the mixture. If we assume this volume as $v$, then&mdash;
 $$ v\times 87.5/100 = 63 \Longrightarrow v = 72 $$
 
 Final volume of mixture is $72$ litres whereas the initial volume was $70$ litres.

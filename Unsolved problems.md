@@ -7,12 +7,51 @@
 3. 39
 4. 37
 
+**Solution**
+
+🔴 **With the formula**
+
+Let the age of the principal be $p$ and the sum of the ages of $24$ students be $S$. Then as per the question&mdash;
+
+$$
+\begin{aligned}
+15 &= \frac{S + p}{25} \cr
+S + p &= 375
+\tag{1}
+\end{aligned}
+$$
+
+And&mdash;
+
+$$ 14 = \frac{S}{24} \Longrightarrow S = 36 \tag{2}$$
+
+From equation $1$ and $2$, $p = 375-336 = 39$. **Ans** ✅
+
+This is not the most efficient approach however. We can do better, much better.
+
+🌳 **A better approach**
+
+We can view this problem like this&mdash;
+
+The average age of the $24$ students was $14$ years. When the principal is also included, the average becomes $15$.
+
+We know that if the principal had just $14$ years of age, than the average would have remain $14$ itself. But as he has increased the average of $24+1 = 25$ persons by $1$, so his age must be $14 + 25\times 1 = 39$. **Ans** ✅
+
 ## The average age of a family of $6$ members is $22$ years. If the age of the youngest member be $7$ years, what was the average age of of family just before the birth of the youngest member?
 
 1. 15
 2. 18
 3. 21
 4. 12
+
+**Solution**
+
+At the time of the birth of the youngest member, everybody was $7$ years younger, so their average age was $22-7 = 15$ years.
+
+At the birth of the youngest member, this average age corresponds to $6$ members, so just before his/her birth, this age must correspond to $5$ members.
+
+Therefore average of $5$ members must be&mdash; $\text{Total sum of ages}/\text{number of members}$ i.e.
+$$ \text{average} = \frac{6\times 15}{5} = 18 \quad✅$$
 
 ## The average age of $8$ persons in a committee is increased by $2$ years when two men aged $35$ years and $45$ years are substituted by two women. Find the average age of two women.
 
@@ -22,6 +61,16 @@
 4. 42
 5. 46
 
+**Solution**
+
+Observe that the number of persons remain same at $8$, therefore to increase the average of $8$ persons by $2$ years, we need $8\times 2 = 16$ years _extra_.
+
+Thus the combined age of new women must be $16$ years more than the combined age of two outgoing men.
+
+Therefore combined age of two incoming women $= (35 + 45) + 16 = 96$.
+
+The average age of these women $= 96/2 = 48$ years. **Ans** ✅
+
 ## The average of $3$ numbers is $17$ and that of the first two is $16$. Find the third number.
 
 1. 15
@@ -29,6 +78,21 @@
 3. 17
 4. 19
 5. 18
+
+**Solution**
+
+🔴 **Normal method** would be&mdash;
+$$ \text{third number} = \text{Sum of three numbers} - \text{Sum of two numbers} $$
+
+Thus $n = 17\times 3 - 16\times 2 \Longrightarrow 51 - 32 = 19$. **Ans** ✅
+
+🌳 **Surplus and Deficiency method**
+
+As $17$ is the average, the surplus above and the deficit below it will be equal.
+
+The deficit below $17$ is $1\times 2 = 2$.
+
+Therefore third number must be&mdash; $17+2 = 19$ **Ans** ✅
 
 ## Find the average of all prime numbers between $30$ and $50$.
 
@@ -38,6 +102,11 @@
 4. 41.8
 5. 40.8
 
+**Solution**
+The prime numbers between $30$ and $50$ are&mdash; $31, 37, 41, 43, 47$.
+
+Their average would be &mdash; $(31+37+41+43+47)/5 = 39.8$ **Ans** ✅
+
 ## The average of $5$ consecutive numbers is $n$. If the next two numbers are also included, the average will&mdash;
 
 1. increase by $1$
@@ -45,6 +114,33 @@
 3. increase by 1.4
 4. increase by 2
 5. None of these
+
+**Solution**
+
+🔴 **Traditional Method**
+
+Let the consecutive numbers are &mdash; $a, a+1, a+2, a+3, a+4$. As per the question&mdash;
+$$ \frac{a + (a+1) + (a+2) + (a+3) + (a+4)}{5} = n \newline \therefore\quad n = a+2 $$
+
+If we include the next two numbers also, then the sum of all seven numbers will become &mdash; $a + (a+1) + (a+2) + (a+3) + (a+4) + (a+5) + (a+6) = 7a + 21$.
+
+Thus the average of these numbers will be&mdash; $(7a+21)/7 = a+3 \Longrightarrow (a+2) + 1 = n + 1$.
+
+Thus the average of these numbers will increase by $1$. **Ans** ✅
+
+🌳 **A better method**
+
+As the consicutive numbers are always in AP, we can use the method of [average as the middle term](https://mathbybihari.com/cat/progressions/average-of-an-ap/).
+
+The middle-term of an AP is always the average of an AP since an AP is balanced about its middle-term. You can also observe that the surplus above and the deficit below the middle term are equal in an AP.
+
+Thus for five consecutive numbers, the third term ([being the middle-term](https://mathbybihari.com/cat/progressions/average-of-an-ap/#calculating-the-middle-term)) will be the average. Similarly, for seven consecutive numbers, the fourth term (again being the middle-term of seven terms) will be the average.
+
+Thus on including the next two terms, the average shifts from the third number to the fourth number. As the numbers are consecutive, the fourth number will be $1$ more than the third number.
+
+Thus the average will increase by $1$.
+
+💡 If you know the concept, this reasoning doesn't take five seconds to yield the answer.
 
 ## The average of $50$ numbers is $38$. If two numbers, namely, $45$ and $55$ are discarded, the average of the remaining numbers is&mdash;
 
@@ -54,6 +150,23 @@
 4. 38
 5. 37.5
 
+**Solution**
+
+🔴 **Using the formula**
+
+It is straight-forward using the formula&mdash;
+$$ \text{average of remaining numbers }= \frac{38\times 50 - (45 + 55)}{48} = 37.5 $$
+
+🌳 **With proper reasoning**
+
+If the averages of the discarded numbers were $38$ itself, then there would have been no change in the average of the remaining numbers. So those two numbes could have totalled $38\times 2 = 76$ to _not affect_ the average of the remaining $48$ numbers.
+
+But they added up to $45 + 55 = 100$, i.e. $100-76 = 24$ more than they were supposed to.
+
+That means that this $24$ has been taken out of the pockets of remaining $48$ numbers. Therefore the average of the remaining $48$ numbers will reduce by $24/48 = .5$.
+
+Thus the remaining average will be $\Longrightarrow 38 - 0.5 = 37.5$ **Ans** ✅
+
 ## In a family of $8$ males and a few ladies, the average monthly consumption of grain per head is $10.8$ kg. If the average monthly consumption per head be $15$ kg in the case of males and $6$ kg in the case of females, find the number of females in the family.
 
 1. 8
@@ -61,6 +174,28 @@
 3. 9
 4. 15
 5. 16
+
+**Solution**
+This question can be done using the concept of weighted average or using the allegation equation. We are using the concept of allegations.
+
+Visualise this situation like this &mdash;
+
+$$
+\text{\small Women}\underset{\small n_2}{\overset{\normalsize 6}{\LARGE|}}
+	\overbrace{\text{------------ }}^{\small 4.8}~
+		\text{10.8}~
+	\overbrace{\text{------------ }}^{\small 4.2}
+\underset{\small 8}{\overset{\normalsize 15}{\LARGE|}} \text{\small Men}
+$$
+
+$$
+\begin{aligned}
+n_2\times 4.8 &= 8\times 4.2 \cr
+\therefore\quad n_2 &= 7
+\end{aligned}
+$$
+
+Hence the number of ladies is $8$. **Ans** ✅
 
 ## The average weight of $5$ men is decreased by $3$ kg when one of them weighing $150$ kg is replaced by another person. Find the weight of the new person.
 
@@ -70,6 +205,12 @@
 4. 162 kg
 5. 165 kg
 
+**Solution**
+
+As the number of men remained same, that means they lost $5\times 3 = 15$ kg by replacement.
+
+Therefore the new person must be $150 - 15 = 135$ kg **Ans** ✅
+
 ## The average score of a cricketer in three matches is $22$ runs and in two other matches, it is $17$ runs, Find the average in all $5$ matches.
 
 1. 20
@@ -77,6 +218,33 @@
 3. 21
 4. 19.5
 5. 20.5
+
+**Solution**
+
+🌳 **Using formula** &mdash; ${(22\times 3 + 17\times 2)}/{5} = 20$ **Ans** ✅
+
+🔴 **Using allegation equation** &mdash;
+
+$$
+\underset{\small 2}{\overset{\normalsize 17}{\LARGE|}}
+	\overbrace{\text{------------ }}^{\small x}~
+		\text{A}~
+	\overbrace{\text{------------ }}^{\small y}
+\underset{\small 3}{\overset{\normalsize 22}{\LARGE|}}
+$$
+
+The ratio of distances will be the inverse of number of matches&mdash;
+
+$$
+\begin{aligned}
+\frac{x}{y} &= \frac{3}{2}\cr
+\text{and } x+y &= 5 \cr
+\end{aligned}
+$$
+
+Solving these equations, we get $x = 3, \quad y = 2$.
+
+Average $A = 17 + 3 = 20$. **Ans** ✅
 
 ## The average of $13$ papers is $40$. The average of the first $7$ papers is $42$ and of the last seven papers is $35$. Find the marks obtained in the $7th$ paper.
 
@@ -86,6 +254,23 @@
 4. 39
 5. None of these
 
+**Solution**
+
+As there are $13$ papers, the $7th$ paper is being counted in both the averages. Visually&mdash;
+
+$$
+\overbrace{
+	\underbrace{a_1, a_2, \ldots, a_7}_{\text{Sum = } 7\times 42 = 294}, a_8, \ldots a_{13}}^{\text{Sum =} 13\times 40 = 520}
+$$
+
+As per the question, the sum of all $13$ papers is $13\times 40 = 520$ and the sum of first $7$ papers is $7\times 42 = 294$.
+
+Thus the sum of last $6$ papers from $a_8 ~to~a_{13}$ must be $520 - 294 = 226$. ️&mdash; 1️⃣
+
+As has been given that the average of last $7$ terms from $a_7 ~to~ a_{13}$ is 35, therefore there sum must be $7\times 35 = 245$. &mdash; 2️⃣
+
+Thus $a_7$ can be calculated as &mdash; Sum of last $7$ papers - Sum of last $6$ papers, i.e. $245 - 226 = 19$ **Ans** ✅
+
 ## The average height of $30$ girls out of a class of $40$ is $160$ cm and that of the remaining girls is $156$ cm. The average height of the whole class is&mdash;
 
 1. 158 cm
@@ -93,6 +278,29 @@
 3. 159 cm
 4. 157 cm
 5. 160 cm
+
+**Solution**
+
+🌳 **With formula**
+$$ average = \frac{30\times 160 + 10\times 156}{40} = 159 ~cm ~✅$$
+
+🌳 **With allegations**
+
+$$
+\underset{\small 10}{\overset{\normalsize 156}{\LARGE|}}
+	\overbrace{\text{------------ }}^{\small x}~
+		\text{A}~
+	\overbrace{\text{------------ }}^{\small y}
+\underset{\small 30}{\overset{\normalsize 160}{\LARGE|}}
+$$
+
+$$ x + y = 4 \tag{1} $$
+
+$$ \frac{10}{30} = \frac{y}{x} \Longrightarrow x = 3y $$
+
+From above two equations, we get $x = 3, y = 1$.
+
+Thus $A = 156+x \Longrightarrow 159$ **Ans** ✅
 
 ## The average weight of a class of $40$ students is $40$ kg. If the weight of the teacher be included, the average weight increases by $500$ gm. The weight of the teacher is &mdash;
 
@@ -102,6 +310,11 @@
 4. 60.5 kg
 5. 64 kg
 
+**Solution**
+The teacher needs $40$ kgs of weight to maintain the group average and another $41\times 0.5 = 20.5$ kgs to raise the average weight of $41$ persons including himself.
+
+So his weight must be $40 + 20.5 = 60.5$ **Ans** ✅
+
 ## In an exam, a student scores $2$ marks for every correct answer and loses $0.5$ marks for every wrong answer. A student attempts all the $100$ questions and scores $120$ marks. The number of questions he answered correctly was &mdash;
 
 1. 50
@@ -110,12 +323,47 @@
 4. 68
 5. None of these
 
+**Solution**
+
+🌳 **Using Equations**
+Let $x$ be the number of questions he got correct so $100-x$ must be the number of questions he has gotten incorrect. Now, as per the question&mdash;
+
+$$
+\begin{aligned}
+2x - (100-x)\times (\frac{1}{2} ) &= 120 \cr
+\therefore\quad 4x + 100 - x &= 240 \cr
+\therefore\quad x &= 68
+\end{aligned}
+$$
+
+Thus he has gotten $68$ questions correct. **Ans** ✅
+
+🌳 **Using thought process**
+
+This is an interesting problem. We need to think slightly differently in this question.
+
+If he had gotten all $100$ of the questions correct, then he would have scored $100\times 2 = 200$ marks.
+
+Now, think of it like this&mdash; _if he gets one incorrect answer, he would lose $2.5$ marks&mdash; $0.5$ mark for actual negative marking and $2$ marks which he could have gotten if his answer were correct._
+
+Thus for every incorrect answer, he loses $2.5$ marks, so to get $120$ marks, he would have to lose $200-120 = 80$ marks which means that he must have gotten $80/2.5 = 32$ questions incorrect.
+
+Thus the number of questions he had gotten correct are $100 - 32 = 68$. **Ans** ✅
+
 ## Three years ago, the average age of a family of $5$ members was $17$ years. A baby having been born, the average of the family is the same today. What is the age of the baby?
 
 1. 1 year
 2. 2 years
 3. 6 months
 4. 9 months
+
+**Solution**
+
+The average age of the family today _excluding the baby_ must be $17 + 3 = 20$ years. The sum of the ages of five members is $20\times 5 = 100$ &mdash; 1️⃣
+
+Now, including the baby also, the average age of the family members is $17$, so the sum of the ages of all $6$ family members is $17\times 6 = 102$ &mdash; 2️⃣
+
+Therefore, the age of the baby must be&mdash; $102 - 100 = 2$ years **Ans** ✅
 
 ## The average salary per head of all the workers in a company is Rs. 95. The average salary of $15$ officers is Rs. 525 and the average salary per head of the rest is Rs. 85. Find the total number of workers in the workshop.
 
@@ -124,13 +372,75 @@
 3. 650
 4. 460
 
-## Find the average increase rate if increase in the population in the first year is $30\%$ and that in the secon year is $40\%$.
+**Solution**
+
+🔴 **Using standard formula**
+
+Let the total number workers, including the officers is $n$. Thus using the formula&mdash;
+
+$$
+\begin{aligned}
+95 &= \frac{15\times 525 + (n-15)\times 85}{n} \cr
+\therefore\quad 95\times n &= 7875 + 85\times n - 1275 \cr
+\therefore\quad 10\times n &= 6600 \cr
+\therefore\quad n &= 660
+\end{aligned}
+$$
+
+Hence the number of total workers is $660$. **Ans** ✅
+
+🌳 **Using the allegation equation**
+
+$$
+\text{\small Labors}\underset{\small p}{\overset{\normalsize 85}{\LARGE|}}
+	\overbrace{\text{------------ }}^{\small 10}~
+		\text{95}~
+	\overbrace{\text{------------ }}^{\small 430}
+\underset{\small 15}{\overset{\normalsize 525}{\LARGE|}} \text{\small Officers}
+$$
+
+Let the number of workers having average salary $85$ be $p$. Thus using the allegation equation&mdash;
+
+$$
+\begin{aligned}
+\frac{p}{15} &= \frac{430}{10} \cr
+\therefore\quad p &= 645
+\end{aligned}
+$$
+
+The total number of workers, including the officers is $645 + 15 = 660$ **Ans** ✅
+
+## Find the average increase rate if increase in the population in the first year is $30\%$ and that in the second year is $40\%$.
 
 1. 41
 2. 56
 3. 40
 4. 38
 5. 39
+
+**Solution**
+
+Let the initial population is $100$. Thus after successive increase&mdash;
+
+-   First increase of $30\%\Longrightarrow (100\times 130)/100 = 130$.
+-   Second increase of $40\%\Longrightarrow (130\times 140)/100 = 182$.
+
+Or in one line, this process can be written as &mdash;
+
+$$
+100~~ \underset{\small +30}{\xrightarrow{\small +30\%}}
+	\quad 130 \quad \underset{\small +52}{\xrightarrow{\small +40\%}} \quad 182
+$$
+
+Thus net increase in the population is $(182-100)\times 100/100 = 82\%$.
+
+The average percentage increase will be $82/2 = 41\%$. **Ans** ✅
+
+> If we have successive increments of $x\%$ and $y\%$, then the formula for computing the net increase in percents is $x+y + (xy)/100$. If we are given the decrements or discounts, then the we put negative values in this formula i.e. $-x$ in place of $x$ and $-y$ in place of $y$.
+
+💡 In this question, we are given increases of $30\%$ and $40\%$ but the average comes out at $41\%$, more than both of these. Why is it so, when we have explicitly stated [here][todo] that the average must lie between the lowest and highest values?
+
+That's because the second percentage increase is not on the initial population but on the successive intermediate step. If the $40\%$ increase were given on the initial population, then the net increase would have been $30$ and $40$ respectively and average increase in percents would have been $(30 + 40)/2 = 35$, just what we think it should be.
 
 ## A batsman makes a score of $270$ runs in the $87th$ innings and thus increases his average by a certain number of runs that is a whole number. Find the possible values of the new average.
 
@@ -139,6 +449,30 @@
 3. 12
 4. All of these.
 
+**Solution**
+
+Since out of $270$ runs, he has to increase the average of $86$ previous innings in whole numbers so he can increase his average either by $1$ or by $2$ or by $3$. He cannot increase his average by $4$ and above since it would require $86\times 4 = 344$ or more runs.
+
+Now, let us assume that his previous average of $86th$ innings is $a$. And the new average is $A$. Now this $A$ can take values like $a+1,~a+2,~\&~ a+3$.
+
+Now, applying the formula of averages for $87$ innings &mdash;
+
+$$
+\begin{aligned}
+A &= \frac{86\times a + 270}{87} \cr
+\therefore\quad 87A - 86a &= 270
+\tag{1}
+\end{aligned}
+$$
+
+Now, in equation $1$, we check for three cases mentioned above &mdash;
+
+-   If $A = a+1$, then $a = 183$, $A = 184$
+-   If $A = a+2$, then $a = 96$, $A = 98$
+-   If $A = a+3$, then $a = 9$, $A = 12$
+
+Hence all three of these values are possible. **Ans** ✅
+
 ## The average of $71$ results is $48$. If the average of the first $59$ results is $46$ and that of the last $11$ is $52$, find the $60th$ result.
 
 1. 132
@@ -146,6 +480,14 @@
 3. 134
 4. 128
 5. 136
+
+**Solution**
+
+The $60th$ result can be obtained by the below process&mdash;
+$$ a_{60} = \text{Sum of all results} - (\text{Sum of first 59 results} + \text{Sum of last 11 results}) $$
+
+Putting all the values&mdash;
+$$ a_{60} = 71\times 48 - 59\times 46 - 11\times 52 \Longrightarrow 122 \quad ✅$$
 
 ## With an average speed of $40$ km/h, a train reaches its destination in time. If it goes with an average speed of $35$ km/h, it is late by $15$ minutes. The length of the total journey is&mdash;
 
